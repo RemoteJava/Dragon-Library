@@ -1,0 +1,63 @@
+/* Ancient Scroll Theme */
+body {
+  background-color: red !important;
+}
+
+.app-container {
+  background-color: #f4e4bc; /* Parchment color */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.library-card {
+  background: #fffef0;
+  border: 8px double #8b4513; /* Brown border */
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+h1 {
+  color: #5d2e0a;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  border-bottom: 2px solid #8b4513;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: "🐉 "; /* Dragon bullet points! */
+  padding-left: 20px;
+}
+
+li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  color: #332211;
+}
+
+li:hover {
+  background-color: rgba(139, 69, 19, 0.1); /* Light brown tint */
+  transform: translateX(10px); /* Slides the book slightly to the right */
+  color: #8b4513;
+  cursor: pointer;
+}
+
+button {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #a0522d;
+}
